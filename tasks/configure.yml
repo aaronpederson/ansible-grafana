@@ -1,0 +1,11 @@
+---
+- name: Upload Config | Grafana
+  template:
+    src: etc/grafana/grafana.ini
+    dest: etc/grafana/grafana.ini
+    owner: root
+    group: wcadmin
+    mode: 0644
+  tags:
+    - configuration
+    - grafana

@@ -1,0 +1,7 @@
+---
+- name: Reload Service | Grafana
+  service:
+    state: reloaded
+    name: grafana
+  tags:
+    - disruptive
