@@ -1,3 +1,14 @@
 ---
-- include: install.yml
-# - include: configure.yml
+- name: Fetch package | Grafana
+  get_url:
+    url: 'https://grafanarel.s3.amazonaws.com/builds/grafana_2.0.0-beta1_amd64.deb'
+    dest: '/tmp/grafana_2.0.0-beta1_amd64.deb'
+  tags:
+    - installation
+    - grafana
+
+- name: Install package | Grafana
+  command: dpkg -i /tmp/grafana_2.0.0-beta1_amd64.deb
+  tags:
+    - installation
+    - grafana
