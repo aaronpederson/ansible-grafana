@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: Aaron Pederson
+  description: Grafana - An open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+      - trusty
+  categories:
+    - security
