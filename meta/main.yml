@@ -8,4 +8,5 @@ galaxy_info:
       versions:
       - trusty
   categories:
-    - security
+    - system
+    - development
