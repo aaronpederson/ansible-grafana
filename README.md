@@ -1,6 +1,6 @@
 # ansible-grafana
 
-[Grafana](https://www.grafana.org) - Grafana - An open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.
+[Grafana](https://www.grafana.org) - An open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.
 
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
