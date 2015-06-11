@@ -1,0 +1,9 @@
+---
+- name: Upload Config | Grafana
+  template:
+    src: etc/grafana/grafana.ini
+    dest: /etc/grafana/grafana.ini
+  tags:
+    - configuration
+    - template-configuration
+    - grafana
